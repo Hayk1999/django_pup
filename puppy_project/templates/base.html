@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puppy blog</title>
+</head>
+<body>
+	<div>
+	<header>
+		<h1><a href="{% url 'home' %}">Home</a></h1>
+		<h1><a href="{% url 'add_pup' %}">Add New Puppy</a></h1>
+	</header>
+	<div>
+		{% block content %}
+		{% endblock content%}
+	</div>
+	<div>
+
+</body>
+</html>
